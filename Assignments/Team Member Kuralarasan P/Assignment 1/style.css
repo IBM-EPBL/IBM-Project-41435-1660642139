@@ -1,0 +1,23 @@
+body, html {
+    height: 50%;
+}
+.hero-image {
+  background-image: url("photo1.jpg");
+
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: right;
+}
+.hero-bg{
+background-color: white;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}

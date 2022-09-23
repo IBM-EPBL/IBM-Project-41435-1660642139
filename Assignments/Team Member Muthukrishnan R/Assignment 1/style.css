@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 20px 100px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.box{
+    margin: 0px 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile{
+    display: flex;
+    background-color: #148aff;
+}
+.dp{
+    padding: 40px;
+    padding-left: 100px;
+}
+.intro{
+    padding: 60px;
+    color: white;
+    padding-left: 100px;
+}
+.dp img{
+    height: 200px;
+    width: 200px;
+}
+.btn{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: white;
+    cursor: pointer;
+}
+.hire{
+    background-color: green ;
+    color: white;
+}
+.about{
+    display: flex;
+    
+    padding-bottom: 20px;
+}
+.about-content{
+   margin: 20px;
+}
+.personal-details{
+    width: 50%;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.skills{
+    display: flex;
+}
+.technical,.soft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+.professionalskills{
+    background-color:white;
+}
+.topic{
+    margin-left: 20px;
+}
+.progbar{
+    height: 20px;
+    width: 500px;
+
+}
+/*progress::-moz-progress-bar{background: pink;}
+progress::-webkit-progress-value{background: pink;}
+progress{color: pink;}
+progress{
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar{
+    background-color:pink;
+}
+progress[value]::-moz-progress-bar{
+    background-color:pink;
+}
+progress{
+    color: pink;
+}*/
+
+progress{
+    accent-color: green;
+}
+.edu{
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    border-left: 2px solid paleturquoise;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.form, .details{
+    padding: 20px;
+ 
+}
+
+.input-boxes{
+    padding: 10px;
+    margin-left: 10px;
+    width: 200px;
+}
+.message{
+    padding: 60px;
+    width: 340px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.submit-btn{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top:20px;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    
+}
+.head{
+    color: #0f0f0f;
+}
+.gray{
+    color: grey;
+}
+.size{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    margin: 50px;
+}
+.muthu{
+    font-family:Verdana ;
+}
