@@ -1,13 +1,13 @@
-IBM-Project-41435-1660642139
+𝗜𝗕𝗠-𝗣𝗿𝗼𝗷𝗲𝗰𝘁-𝟰𝟭𝟰𝟯𝟱-𝟭𝟲𝟲𝟬𝟲𝟰𝟮𝟭𝟯𝟵
 
-PROJECT TITLE: NEWS TRACKER APPLICATION
+𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝐓𝐈𝐓𝐋𝐄: 𝐍𝐄𝐖𝐒 𝐓𝐑𝐀𝐂𝐊𝐄𝐑 𝐀𝐏𝐏𝐋𝐈𝐂𝐀𝐓𝐈𝐎𝐍
 
-TEAM ID: PNT2022TMID33380
+𝐓𝐄𝐀𝐌 𝐈𝐃: 𝐏𝐍𝐓𝟐𝟎𝟐𝟐𝐓𝐌𝐈𝐃𝟑𝟑𝟑𝟖𝟎
 
-TEAM LEADER: MUTHUKUMAR B
+𝐓𝐄𝐀𝐌 𝐋𝐄𝐀𝐃𝐄𝐑: 𝐌𝐔𝐓𝐇𝐔𝐊𝐔𝐌𝐀𝐑 𝐁
 
-TEAM MEMBER: KAVIYARASU N
+𝐓𝐄𝐀𝐌 𝐌𝐄𝐌𝐁𝐄𝐑: 𝐊𝐀𝐕𝐈𝐘𝐀𝐑𝐀𝐒𝐔 𝐍
 
-TEAM MEMBER: KURALARASAN P
+𝐓𝐄𝐀𝐌 𝐌𝐄𝐌𝐁𝐄𝐑: 𝐊𝐔𝐑𝐀𝐋𝐀𝐑𝐀𝐒𝐀𝐍 𝐏
 
-TEAM MEMBER: MUTHUKRISHNAN R
+𝐓𝐄𝐀𝐌 𝐌𝐄𝐌𝐁𝐄𝐑: 𝐌𝐔𝐓𝐇𝐔𝐊𝐑𝐈𝐒𝐇𝐍𝐀𝐍 𝐑
