@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>NEWSpro</title>
+   <!-- <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='newslogo.png') }}">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body class="m-0 p-0">
+
+     
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
+        <div class="container">
+            <!--<a class="navbar-brand" href="#" style="margin:0;padding:0;margin-right:15px"><img src="{{ url_for('static',filename='newslogo.png') }}" width="50px"/></a>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto  mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#genral" id="genral">General</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#business" id="business" >Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sports" id="sport">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#tehnology" id="technology">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-contro rounded p-2" type="text" id="newsQuery" placeholder="Search news" >
+                    <button class="btn btn-dark me-2" type="button" id="searchBtn"><i class="fa fa-search"></i></button>
+                    <a href="home.html" class="btn btn-danger" type="button" id="logoutBtn">Logout</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row" id="newsType"></div>
+        <div class="row" id="newsdetails"></div>
+    </div>
+
+        
+
+    
+
+
+    <script src="{{ url_for('static', filename='js/news.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<div class="container">
+        <div class="card">
+          <div class="card-header">
+            <img src="https://images.hindustantimes.com/img/2022/11/14/550x309/Smog-6_1668436436593_1668436436593_1668436491578_1668436491578.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <a href = "https://www.hindustantimes.com/india-news"><span class="tag tag-purple">Weather</span></a>
+            <h4>
+               <a href="https://www.hindustantimes.com/india-news/these-are-india-s-most-polluted-cities-7-of-10-are-from-bihar-101668426703839.html" target=_blank> These are India's most polluted cities. 7 of 10 are from Bihar</a>
+            </h4>
+            <p>
+                FGhaziabad fared better in the first half of November this year as the average air quality index (AQI) levels have remained on the lower side compared to the last six years with the least number of “severe” days during the first thirteen days of the current month.
+            </p>
+          </div>
+        </div>
+	  <div class="card">
+          <div class="card-header">
+            <img src="https://c.ndtvimg.com/2022-09/3ln6tu7o_mamata-banerjee-pti_625x300_08_September_22.jpg" alt="ballons" />
+          </div>
+          <div class="card-body">
+            <a href = "https://www.ndtv.com/india"><span class="tag tag-teal">Politics</span></a>
+            <h4>
+                <a href="https://www.ndtv.com/india-news/mamata-banerjee-apologises-for-trinamools-minister-comments-on-president-droupadi-murmu-beauty-is-not-about-how-you-look-3518867" target=_blank>Mamata Banerjee Apologises For Trinamool Minister's Comments On President</a>
+            </h4>
+            <p>
+                West Bengal BJP MLAs marched to the Raj Bhavan this afternoon in protest against the distasteful comments by Trinamool minister Akhil Giri on the President of India.
+
+            </p>
+          </div>
+        </div>
+	  
+        
+        <div class="card">
+          <div class="card-header">
+            <img src="https://images.hindustantimes.com/img/2022/11/14/550x309/modi_in_bali_1668437713918_1668437719839_1668437719839.jfif" />
+          </div>
+          <div class="card-body">
+            <a href = "https://www.hindustantimes.com/india-news"><span class="tag tag-purple">India News</a>
+            <h4>
+                <a href="https://www.hindustantimes.com/india-news/pm-modi-in-bali-for-g20-summit-bilateral-meetings-with-top-world-leaders-101668436708550.html" target=_blank>In Bali, PM Modi meets Indians, to attend G20 Summit with top world leaders</a>
+            </h4>
+            <p>
+                The two-day G20 Summit begins on Tuesday, and will be attended by US President Joe Biden and British Prime Minister Rishi Sunak among heads from 20 countries and the European Union who make up the group.
+            </p>
+           
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://th-i.thgim.com/public/incoming/yygqz6/article66110849.ece/alternates/FREE_1200/PTI10_18_2022_000072B.jpg" alt="city" />
+          </div>
+          <div class="card-body">
+            <a href = "Categories\inside-tn.html"><span class="tag tag-aas">Inside - TN</span></a>
+            <h4>
+              AIADMK Created By Cadres, No One Can Divide It: O Pannerselvam
+            </h4>
+            <p>
+              Expelled All India Anna Dravida Munnetra Kazhagam (AIADMK) leader and former chief minister of Tamil Nadu O Pannerselvam today said that AIADMK is an organization which was created by cadres and it should function with unity.</p>
+           
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://images.hindustantimes.com/img/2022/10/11/550x309/Delhi-Weather-Rain--4_1665414049445_1665414049445_1665455613808_1665455613808.jpg" alt="city" />
+          </div>
+          <div class="card-body">
+            <a href = "Categories\weather360.html"><span class="tag tag-cyan">Weather 360°</span></a>
+            <h4>
+             Isolated Rains Over Rajasthan, Andhra, Karnataka; Tamil Nadu, Kerala In For Thunderstorms
+            </h4>
+            <p>
+              Widespread rains and thunderstorms with isolated heavy falls are likely over Andaman and Nicobar Islands.Fairly widespread rainfall with thunderstorms may lash Tamil Nadu, Puducherry and Karaikal.Dense fog is possible over Central India early in the morning.            </p>
+           
+          </div>
+        </div>
+	  <div class="card">
+          <div class="card-header">
+            <img src="https://www.indiaspend.com/wp-content/uploads/620-Fire.jpg" alt="rover" />
+          </div>
+          <div class="card-body">
+            <a href = "Categories\trending today.html"><span class="tag tag-purple1">Trending Today</span></a>
+            <h4><a href="https://www.ndtv.com/indians-abroad/9-indians-killed-in-maldives-fire-report-3506799#trendingnow" target=_blank>9 Indians Killed In Maldives Fire: Report</a></h4>
+            <p>
+                Officials said 10 bodies were recovered from the upper floor of a building destroyed in the fire, which swept through the cramped lodgings of foreign workers.At least 10 people were killed and several others injured Thursday when a fire swept through cramped lodgings of foreign workers in the Maldives capital Male, the fire service said.
+            </p>
+          </div>
+        </div>
+
+</body>
+
+</html>
